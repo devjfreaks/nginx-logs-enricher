@@ -1,5 +1,38 @@
-/bin/
-/cache.db
+# =====================
+# Go build artifacts
+# =====================
+
+# Main binary (your screenshot shows this exists)
+nginx-logs-enricher
+nginx-logs-enricher.exe
+
+# Optional build dirs
+bin/
+dist/
 *.log
+
+# =====================
+# Runtime artifacts
+# =====================
+
+# SQLite cache
+cache.db
+
+# Output files
 *.jsonl
-.env
+
+# =====================
+# Go tooling
+# =====================
+
+*.test
+*.out
+
+# =====================
+# OS / editor junk
+# =====================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,35 @@
+# =====================
+# Git / metadata
+# =====================
+
+.git
+.github
+
+# =====================
+# Docs (not needed at runtime)
+# =====================
+
+*.md
+
+# =====================
+# Go build artifacts (Docker builds its own)
+# =====================
+
+nginx-logs-enricher
+nginx-logs-enricher.exe
+bin/
+dist/
+
+# =====================
+# Runtime artifacts
+# =====================
+
+cache.db
+*.jsonl
+
+# =====================
+# Misc
+# =====================
+
+tmp/
+*.log
